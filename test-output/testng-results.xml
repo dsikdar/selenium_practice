@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1964" started-at="2020-07-24T10:30:58Z" finished-at="2020-07-24T10:31:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1964" started-at="2020-07-24T10:30:58Z" finished-at="2020-07-24T10:31:00Z">
+      <class name="tdd.UserNamePassWord">
+        <test-method status="PASS" signature="PrintUserNamePassword(java.lang.String, java.lang.String)[pri:0, instance:tdd.UserNamePassWord@55f3ddb1]" name="PrintUserNamePassword" duration-ms="26" started-at="2020-07-24T10:31:00Z" data-provider="getUserNamePassword" finished-at="2020-07-24T10:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsikdar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintUserNamePassword -->
+        <test-method status="PASS" signature="PrintUserNamePassword(java.lang.String, java.lang.String)[pri:0, instance:tdd.UserNamePassWord@55f3ddb1]" name="PrintUserNamePassword" duration-ms="16" started-at="2020-07-24T10:31:00Z" data-provider="getUserNamePassword" finished-at="2020-07-24T10:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ssamanta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintUserNamePassword -->
+      </class> <!-- tdd.UserNamePassWord -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
